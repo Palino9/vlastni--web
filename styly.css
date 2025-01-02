@@ -50,7 +50,7 @@
 
 body {
     font-family: Roboto;
-         
+             
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -264,17 +264,61 @@ nav ul li a:active {
     margin-bottom: 70px;
 }
 
-.about-main img {
-    max-width: 100%;
-    height: auto;
-    
+.section-description {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #040404;
 }
 
-
-.web-example img {
-    max-width: 100%;
+/* Blok služeb */
+.service-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 7xp 7px 7px #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-block.reverse {
+    flex-direction: row-reverse;
+}
+
+.service-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.service-text h2 {
+    font-size: 1.9rem;
+    color: #24a6f2;
+    margin-bottom: 10px;
+}
+
+.service-text p {
+    font-size: 1.1rem;
+    color: #040404;
+    line-height: 1.6;
+}
+
+.service-image {
+    flex: 1;
+    text-align: center;
+}
+
+.service-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .text-o-mne img {
@@ -325,7 +369,7 @@ nav ul li a:active {
     float: left;
 }
 
-/*****Photo gallery*****/
+/* ****Photo gallery****
 
 .photo-segment li {
     max-width: 100%;
@@ -333,7 +377,7 @@ nav ul li a:active {
 
 .photo-segment img {
     max-width: 100%;
-}
+} */
 
 /*****Contact form*****/
 
@@ -381,6 +425,7 @@ nav ul li a:active {
     letter-spacing: 0.3px;
     box-shadow: 5px 5px 5px #a39e9e;
 }
+
 
 input[type="submit"]  {
     background-color: #40E0D0;

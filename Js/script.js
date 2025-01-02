@@ -63,6 +63,15 @@
             headerEl.classList.remove("nav-background-scrolled");
         }
         });
-                    
+
+         /* contact form - send Btn */
+
+            document.querySelector(".sendBtn").addEventListener("click", function(event){
+            event.target.textContent = "ODESLÁNO"
+
+         })      
+        
+  
+               
     });
 })(jQuery);

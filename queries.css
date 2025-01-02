@@ -3,15 +3,10 @@
     .header-image img{
         max-width: 100%;
         height: auto;
-        
-        
+          
     }
-    
-    /*****Web example*****/
-     .web-example {
-        margin-left: 20px;
-     }
-    
+
+          
     /*****about us*****/
     .col.span-1-of-2 p {
         width: 100%;
@@ -251,7 +246,19 @@
 }
 
 @media only screen and (max-width: 768px){
-      
+       /*****My Servise*****/
+       .service-block {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-block.reverse {
+        flex-direction: column;
+    }
+
+    .service-text {
+        padding: 10px;
+    }
     
     /*****about us*****/
      .col.span-1-of-2 p {
@@ -280,11 +287,11 @@
 
     /*****footer-contact*****/ 
 
-    .quick-contacts{
+    .quick-contacts {
         display: block;
     }
 
-    .email-icon{
+    .email-icon {
         margin-top: 20px;
     }
 }
