@@ -93,11 +93,12 @@ header {
 
 
 #logo img {
-    max-width: 13%;
+    max-width: 4.3rem;
+    max-height: 0 auto;
     position: fixed;
-    top: 2%;
-    left: 11.6%;
+    left: 11.2vw;
     z-index: 100;
+    top: 0.1vh;
     cursor: pointer;
 }
 
@@ -277,7 +278,7 @@ nav ul li a:active {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
-    background: #fff;
+    background: #cfd7d733;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -343,7 +344,7 @@ nav ul li a:active {
 /*****reference*****/
 
 .reference {
-    background-color: hsl(0, 2%, 90%);
+    background-color: #cfd7d733;
     font-size: 1.1rem;
     font-style: italic;
     text-align: justify;
