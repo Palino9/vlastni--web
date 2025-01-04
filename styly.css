@@ -73,7 +73,7 @@ h1,h2,h3,h4,h5,h6 {
 /*****header*****/
 
 header {
-    background-image: linear-gradient(to right top, #1a1a40, #17355e, #08517a, #006e93, #008ca7);
+    background-image: linear-gradient(to right top, #17355e, #153f69, #114a73, #0b547d, #055f87, #02668d, #006e93, #007598, #007b9c, #0080a0, #0086a4, #008ca7);
     background-size: cover;
     height: 90vh;
 }
@@ -88,7 +88,7 @@ header {
 }
 
 .nav-background-scrolled{
-    background-image: linear-gradient(to right top, #1a1a40, #17355e, #08517a, #006e93, #008ca7);
+    background-image: linear-gradient(to right top, #17355e, #153f69, #114a73, #0b547d, #055f87, #02668d, #006e93, #007598, #007b9c, #0080a0, #0086a4, #008ca7);
 }
 
 
@@ -511,7 +511,7 @@ input[type="submit"]:hover {
     margin-top: 100px;
     width: 100%;
     height: 300px;
-    background-color: #17355e;
+    background-color: #2b4a74;
     text-align: center;
     color: #fff;
     
