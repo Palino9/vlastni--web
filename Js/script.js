@@ -42,13 +42,13 @@
         $(".jq--image-hamburger").click(function(){
 
 
-            if($(".jq--image-hamburger").attr("src") == "Obrazky/menu button.png")   
+            if($(".jq--image-hamburger").attr("src") == "Obrazky/menu_button.png")   
             {
-                $($(".jq--image-hamburger").attr("src","Obrazky/close button.png"));
+                $($(".jq--image-hamburger").attr("src","Obrazky/close_button.png"));
             }
             else
             {
-                $($(".jq--image-hamburger").attr("src","Obrazky/menu button.png"));
+                $($(".jq--image-hamburger").attr("src","Obrazky/menu_button.png"));
             }
         
         });

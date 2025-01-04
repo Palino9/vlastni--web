@@ -240,7 +240,8 @@ nav ul li a:active {
 }
 
 .jq--image-hamburger {
-    max-width: 49%;
+    width: 3.5rem;
+    margin-right: 7vw;
 }
 
 
@@ -342,6 +343,19 @@ nav ul li a:active {
 }
 
 /*****reference*****/
+
+.span-1-of-3 {
+    width: 21rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 .reference {
     background-color: #cfd7d733;
@@ -520,6 +534,7 @@ input[type="submit"]:hover {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    margin-right: 4vw;
 }
 
 .phone-icon a{
@@ -529,7 +544,7 @@ input[type="submit"]:hover {
 
 .phone-icon img{
     fill: #6C87AB;
-    width: 16%;
+    width: 18%;
     margin-right: 6px;
     padding: 7px;
 }
@@ -554,7 +569,7 @@ input[type="submit"]:hover {
 
 .email-icon img{
     fill: #6C87AB;
-    width: 16%;
+    width: 15%;
     margin-right: 6px;   
     padding: 7px;
 }
