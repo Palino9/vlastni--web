@@ -326,9 +326,10 @@ nav ul li a:active {
 
 .text-o-mne img {
     display: block;
-    max-width: 130%;
+    max-width: 100%;
+    width: 40rem;
     height: auto;
-    margin-left: 270%;
+    margin-left: 50vw;
     margin-top: -189%;
     margin-bottom: 50px;
         
@@ -336,7 +337,7 @@ nav ul li a:active {
 
 .text-o-mne p {
     font-size: 18px;
-    text-align: left;
+    text-align: justify;
     margin-bottom: 20px;
     float: left;
     line-height: 1.6;
@@ -345,7 +346,7 @@ nav ul li a:active {
 /*****reference*****/
 
 .span-1-of-3 {
-    width: 21rem;
+    width: 23rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -460,7 +461,7 @@ input[type="submit"]:hover {
 /*****Footer*****/
 
 .footer-page {
-    background-image: linear-gradient(to right top, #1a1a40, #17355e, #08517a, #006e93, #008ca7);
+    background-image: linear-gradient(to right top, #17355e, #153f69, #114a73, #0b547d, #055f87, #02668d, #006e93, #007598, #007b9c, #0080a0, #0086a4, #008ca7);
     height: 100px;
     display: flex;
     flex-wrap: wrap;

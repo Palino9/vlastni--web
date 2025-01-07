@@ -212,8 +212,8 @@
         .btn {
             display: block;
             text-align: center;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 14px;
+            margin-right: 14px;
             padding: 10px;
         }
         
@@ -334,8 +334,8 @@
   
     /*****Contact form*****/
     .contact-form {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 14px;
+        margin-right: 14px;
         width: auto;
 }
 }
@@ -374,8 +374,8 @@
 
        /*****Contact form*****/
     .contact-form {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
     width: auto;
 }
 }
