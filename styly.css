@@ -134,7 +134,7 @@ nav ul li a:active {
 .header-text {
     position: absolute;
     top: 50%;
-    left:35%;
+    left:34%;
     transform: translate(-50%,-50%);
 }
 
@@ -431,6 +431,7 @@ nav ul li a:active {
     box-shadow: 5px 5px 5px #a39e9e;
 }
 
+
 .contact-form textarea {
     width: 100%;
     margin: 5px 0px;
@@ -520,7 +521,12 @@ input[type="submit"]:hover {
 
 .footer-contact h2{
     font-size: 41px;
-    margin-bottom: 60px ;
+    margin-bottom: 36px ;
+}
+
+.opening-hours {
+    font-size: 1.2em;
+    margin-bottom: 30px;
 }
 
 .quick-contacts{
