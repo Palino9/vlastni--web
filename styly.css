@@ -337,7 +337,7 @@ nav ul li a:active {
 
 .text-o-mne p {
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 20px;
     float: left;
     line-height: 1.6;
@@ -431,7 +431,6 @@ nav ul li a:active {
     box-shadow: 5px 5px 5px #a39e9e;
 }
 
-
 .contact-form textarea {
     width: 100%;
     margin: 5px 0px;
@@ -443,7 +442,6 @@ nav ul li a:active {
     letter-spacing: 0.3px;
     box-shadow: 5px 5px 5px #a39e9e;
 }
-
 
 input[type="submit"]  {
     background-color: #40E0D0;

@@ -69,8 +69,9 @@
             document.querySelector(".sendBtn").addEventListener("click", function(event){
              event.target.textContent = "ODESLÁNO"
 
-         })      
-        
+         });   
+         
+             
   
                
     });
