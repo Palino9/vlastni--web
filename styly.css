@@ -104,10 +104,11 @@ header {
 
 nav ul {
     float: right;
+    margin-left: 37.8%;
     margin-top: 20px;
     position: fixed;
-    margin-left: 42.4%;
     z-index: 100;
+    -webkit-text-stroke-width: thin;
 }
 
 nav ul li {
@@ -120,7 +121,7 @@ nav ul li {
 nav ul li a:link,
 nav ul li a:visited {
     color: #fff;
-    font-size: 22px;
+    font-size: 1.3rem;
     text-decoration: none;
     border-bottom: 2.5px solid transparent;
 }
@@ -214,6 +215,7 @@ nav ul li a:active {
     background: #40E0D0;
     text-decoration: none;
     font-size: 20px;
+    color: black;
     border: 1px solid #40E0D0;
     border-radius: 10px;
     padding: 5px 10px;
@@ -326,7 +328,8 @@ nav ul li a:active {
 
 .text-o-mne img {
     display: block;
-    max-width: 100%;
+    max-width: 110%;
+    border-radius: 50%;
     width: 40rem;
     height: auto;
     margin-left: 50vw;
@@ -430,6 +433,7 @@ nav ul li a:active {
     font-size: 1em;
     box-shadow: 5px 5px 5px #a39e9e;
 }
+
 
 .contact-form textarea {
     width: 100%;
