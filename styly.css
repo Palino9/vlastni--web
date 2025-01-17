@@ -549,6 +549,7 @@ input[type="submit"]:hover {
 .phone-icon a{
     color: #fff;
     margin-top: 9px;
+    text-decoration: none;
 }
 
 .phone-icon img{
