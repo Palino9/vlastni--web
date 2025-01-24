@@ -300,6 +300,7 @@
 
     .quick-contacts {
         display: block;
+        margin-left: 2rem;
     }
 
     .email-icon {

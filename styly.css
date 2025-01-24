@@ -173,7 +173,8 @@ nav ul li a:active {
 
 .btn {
     display: inline-block;
-    color: black;
+    color:#113353;
+    ;
     text-decoration: none;
     font-size: 20px;
     border: 1px solid #40E0D0;
@@ -209,7 +210,8 @@ nav ul li a:active {
     transition: background 0.5s;
     background: #40E0D0;
     border: 1px solid #40E0D0;
-    color: #000; 
+    color:#113353;
+    ; 
      
 }
 
@@ -218,7 +220,7 @@ nav ul li a:active {
     background: #40E0D0;
     text-decoration: none;
     font-size: 20px;
-    color: black;
+    color: #113353;
     border: 1px solid #40E0D0;
     border-radius: 10px;
     padding: 5px 10px;
@@ -307,7 +309,7 @@ nav ul li a:active {
 
 .service-text h2 {
     font-size: 1.9rem;
-    color: #24a6f2;
+    color: #113353;
     margin-bottom: 25px;
 }
 
@@ -342,8 +344,7 @@ nav ul li a:active {
 
 .text-o-mne p {
     font-size: 18px;
-    text-align: left;
-    /* color:#57575c; */
+    text-align: center;
     margin-bottom: 20px;
     float: left;
     line-height: 1.6;
@@ -445,7 +446,6 @@ nav ul li a:active {
     box-shadow: 5px 5px 5px #a39e9e;
 }
 
-
 .contact-form textarea {
     width: 100%;
     margin: 5px 0px;
@@ -456,6 +456,22 @@ nav ul li a:active {
     font-size: 1em;
     letter-spacing: 0.3px;
     box-shadow: 5px 5px 5px #a39e9e;
+}
+
+textarea:focus {
+    transition: 0.1s;
+    outline: none;
+    border: 2.4px solid #40E0D0;
+}
+
+input[type="text"] {
+    
+  transition: 0.1s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+    border: 2.4px solid #40E0D0;
 }
 
 input[type="submit"]  {
