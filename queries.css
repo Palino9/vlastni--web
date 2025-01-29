@@ -60,6 +60,10 @@
 
 
 @media only screen and (max-width: 1050px){
+
+    #logo img {
+        left: 1.2rem;
+    }  
           
     /*****about us*****/
     .col.span-1-of-2 p {
@@ -92,6 +96,10 @@
 }
 
 @media only screen and (max-width: 950px){
+
+    #logo img {
+        left: 1.2rem;
+    }  
         
     /*****mobile navigation*****/
     nav ul li {
@@ -180,6 +188,10 @@
 
 @media only screen and (max-width: 818px){
 
+         #logo img {
+             left: 1.2rem;
+        }  
+
            /*****header*****/
         .header {
           height: 120vh;
@@ -209,8 +221,8 @@
         .btn {
             display: block;
             text-align: center;
-            margin-left: 14px;
-            margin-right: 14px;
+            margin-left: 18px;
+            margin-right: 18px;
             padding: 10px;
         }
         
@@ -218,8 +230,19 @@
         .btn-emty:visited {
              margin-left: 10px;
              color: #fff;
+             margin-left: 18px;
+             margin-right: 18px;
         }
-    
+
+        .btn-emty:hover,
+        .btn-emty:active {
+             transition: background 0.5s;
+             background: #40E0D0;
+             border: 1px solid #40E0D0;
+             color:#113353;
+         }
+
+        
 
      /*****about us*****/
      .col.span-1-of-2 p {
@@ -246,7 +269,7 @@
 
 @media only screen and (max-width: 768px){
     #logo img {
-        left: 1.5vh;
+        left: 1.2rem;
     }  
     
     /*****My Servise*****/
@@ -261,6 +284,7 @@
         text-align: center;
         margin-left: 1rem;
         margin-right: 1rem;
+        margin-top: 20px;
     }
 
     .service-block.reverse {
@@ -349,7 +373,7 @@
     /*****reference*****/
     .about-main h2 {
         text-align: center;
-        margin-top: 90px;
+        margin-top: 45px;
         font-size: 30px;
     }
     .col.span-1-of-3.one-reference {
@@ -372,8 +396,8 @@
 
        /*****Contact form*****/
     .contact-form {
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left: 18px;
+    margin-right: 18px;
     width: auto;
 }
 }

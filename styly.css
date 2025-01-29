@@ -92,16 +92,17 @@ header {
 
 .nav-background-scrolled{
     background-image: linear-gradient(to right top, #17355e, #153f69, #114a73, #0b547d, #055f87, #02668d, #006e93, #007598, #007b9c, #0080a0, #0086a4, #008ca7);
+   
 }
 
 
 #logo img {
-    max-width: 4.3rem;
+    max-width: 4rem;
     max-height: 0 auto;
     position: fixed;
     left: 11.2vw;
     z-index: 100;
-    top: 0.1vh;
+    top: 0.42vh;
     cursor: pointer;
 }
 
@@ -211,8 +212,7 @@ nav ul li a:active {
     background: #40E0D0;
     border: 1px solid #40E0D0;
     color:#113353;
-    ; 
-     
+         
 }
 
 .jq--scroll-contact-form:link,
@@ -270,7 +270,7 @@ nav ul li a:active {
     max-width: 300px;
     border-bottom: 2px solid #40E0D0;
     margin: 20px auto;
-    margin-bottom: 70px;
+    margin-bottom: 55px;
 }
 
 .section-description {
@@ -285,11 +285,11 @@ nav ul li a:active {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 40px;
-    background: #cfd7d733;
+    margin-bottom: 10px;
+    /* background: #cfd7d733; */
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
 
@@ -416,28 +416,19 @@ nav ul li a:active {
 .contact-form {
     background-color: #E5E6E6;
     max-width: 500px;
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
-    padding-top: 39px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     box-shadow: 7px 7px 20px #a39e9e;
 }
 
-.contact-form p {
-    margin-bottom: 25px;
-    font-family: 'Poppins';
-    line-height: 1.6;
-    letter-spacing: 0.2px;
-    word-spacing: 0.5px;
-}
-
 .contact-form input {
     width: 100%;
     height: 45px;
-    margin: 5px 0px;
     padding: 7px;
     border: 2px solid #bdbcbc;
     border-radius: 10px;
