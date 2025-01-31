@@ -108,7 +108,7 @@ header {
 
 nav ul {
     float: right;
-    margin-left: 37.8%;
+    margin-left: 34.45%;
     margin-top: 20px;
     position: fixed;
     z-index: 100;
@@ -118,7 +118,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     color: #fff;
-    margin-left: 15px;
+    margin-left: 25px;
     letter-spacing: 1px;
 }
 
@@ -414,7 +414,7 @@ nav ul li a:active {
 }
 
 .contact-form {
-    background-color: #E5E6E6;
+    background-color: #cfd7d733;
     max-width: 500px;
     margin-top: 40px;
     text-align: center;
@@ -468,6 +468,7 @@ input[type="text"]:focus {
 input[type="submit"]  {
     background-color: #40E0D0;
     font-size: 1.2rem;
+    color:  #113353;
     width: 50%;
     cursor: pointer;
     border: none;
@@ -477,6 +478,7 @@ input[type="submit"]  {
 input[type="submit"]:hover {
     background-color: rgb(45, 182, 168);
     transition: background-color 0.5s;
+    color: #fff
 }
 
 /*****Footer*****/
