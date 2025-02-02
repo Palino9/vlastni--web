@@ -115,7 +115,8 @@
     position: fixed;
     z-index: 90;
     width: 100%;
-    background-image: linear-gradient(to right top, #17355e, #153f69, #114a73, #0b547d, #055f87, #02668d, #006e93, #007598, #007b9c, #0080a0, #0086a4, #008ca7);
+    /* background-image: linear-gradient(to right top, #17355e, #153f69, #114a73, #0b547d, #055f87, #02668d, #006e93, #007598, #007b9c, #0080a0, #0086a4, #008ca7); */
+    background-color: #113353;
     box-shadow: 1px 1px 10px #fff;
     display: none;  
     
