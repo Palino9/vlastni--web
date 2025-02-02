@@ -29,7 +29,7 @@
     font-weight: bold;
 }
 
-@keyframes yourAnimation {
+/* @keyframes yourAnimation {
     0% {
         transform:  translate(0,0);
     }
@@ -45,7 +45,7 @@
     100% {
         transform:  translate(0,0);
     }
-}
+} */
 
 
 body {
@@ -85,7 +85,7 @@ header {
 .nav-background {
     position: fixed;
     width: 100%;
-    height: 70px;
+    height: 85px;
     background-color: transparent; 
     border-bottom: 2px solid hsla(0, 0%, 100%, .2);
     z-index: 100;
@@ -105,14 +105,14 @@ header {
     position: fixed;
     left: 11.2vw;
     z-index: 100;
-    top: 0.42vh;
+    top: 1.42vh;
     cursor: pointer;
 }
 
 nav ul {
     float: right;
     margin-left: 34.45%;
-    margin-top: 22px;
+    margin-top: 30px;
     position: fixed;
     z-index: 100;
     -webkit-text-stroke-width: thin;
@@ -539,16 +539,16 @@ input[type="submit"]:hover {
     margin-top: 100px;
     width: 100%;
     height: 300px;
-    background-color:#1a4674;
+    background-color:#E9ECEF;
     text-align: center;
-    color: #fff;
+    color: #113353;
     
 }
 
 .footer-contact h2{
     font-size: 41px;
     margin-bottom: 36px;
-    color: #fff;
+    color: #113353;
 }
 
 .opening-hours {
@@ -572,7 +572,7 @@ input[type="submit"]:hover {
 }
 
 .phone-icon a{
-    color: #fff;
+    color: #113353;
     margin-top: 9px;
     text-decoration: none;
 }
@@ -591,7 +591,7 @@ input[type="submit"]:hover {
 }
 
 .email-icon a{
-    color: #fff;
+    color: #113353;
     text-decoration-color: #40E0D0;
     margin-top: 9px;
     cursor: pointer;
