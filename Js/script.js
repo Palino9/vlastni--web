@@ -31,11 +31,11 @@
         });
 
         /* Mobile navigation */
-        $(".jq--nav-icon").click(function(){
-
-            $(".nav-background").fadeToggle();
-            $(".mobile-nav-back").fadeToggle();
-            $("nav ul").fadeToggle();
+        $(".jq--nav-icon").click(function(event){
+            event.preventDefault();
+            $(".nav-background").toggleClass("show");
+            $(".mobile-nav-back").toggleClass("show");
+            $("nav ul").toggleClass("show");
         });
 
         /* Change hamburger to cross and other way */
