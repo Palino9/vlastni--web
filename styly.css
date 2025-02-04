@@ -252,6 +252,7 @@ nav ul li a:active {
 .jq--image-hamburger {
     width: 3.5rem;
     margin-right: 7vw;
+    margin-top: 1.9vh;
 }
 
 
@@ -484,61 +485,15 @@ input[type="submit"]:hover {
     color: #fff
 }
 
-/*****Footer*****/
 
-.footer-page {
-    /* background-image: linear-gradient(to right top, #17355e, #153f69, #114a73, #0b547d, #055f87, #02668d, #006e93, #007598, #007b9c, #0080a0, #0086a4, #008ca7); */
-    background-color: #113353;
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-}
-
-.social {
-    text-align: center;
-    margin: 9px 0px;
-    
-}
-
-.social a {
-    display: inline;
-    margin-left: 10px;
-    font-size: 17px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.social a:link,
-.social a:visited {
-    border-bottom: 2.5px solid transparent;
-   
-}
-  
-.social a:hover,
-.social a:active {
-    transition: border-bottom 1s;
-    border-bottom: 2.5px solid #40E0D0;
-}
-
-.footer-text {
-    color: #fff;
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 13px;
-    margin-top: 13px;
-    
-}
-
-/*****footer-contact*****/
+/*****footer- quick contact*****/
 
 .footer-contact{
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
     width: 100%;
-    height: 300px;
+    height: 380px;
     background-color:#E9ECEF;
     text-align: center;
     color: #113353;
@@ -609,6 +564,67 @@ input[type="submit"]:hover {
     padding: 7px;
 }
 
+/*****Google map*****/
+.footer-map{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
+    
+}
+
+/*****Footer-end of page*****/
+
+.footer-page {
+    /* background-image: linear-gradient(to right top, #17355e, #153f69, #114a73, #0b547d, #055f87, #02668d, #006e93, #007598, #007b9c, #0080a0, #0086a4, #008ca7); */
+    background-color: #113353;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.social {
+    text-align: center;
+    margin: 9px 0px;
+    
+}
+
+.social a {
+    display: inline;
+    margin-left: 10px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social a:link,
+.social a:visited {
+    border-bottom: 2.5px solid transparent;
+   
+}
+  
+.social a:hover,
+.social a:active {
+    transition: border-bottom 1s;
+    border-bottom: 2.5px solid #40E0D0;
+}
+
+.footer-text {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-top: 13px;
+    
+}
 
 
 
