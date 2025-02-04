@@ -260,7 +260,7 @@ nav ul li a:active {
 
 
 .empty-space {
-    height: 70px;
+    height: 85px;
 }
 
 .about-main h2 {
@@ -427,7 +427,7 @@ nav ul li a:active {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-    box-shadow: 7px 7px 20px #a39e9e;
+    
 }
 
 .contact-form input {
@@ -438,7 +438,7 @@ nav ul li a:active {
     border-radius: 10px;
     font-family: poppins;
     font-size: 1em;
-    box-shadow: 5px 5px 5px #a39e9e;
+    
 }
 
 .contact-form textarea {
@@ -450,7 +450,7 @@ nav ul li a:active {
     font-family: poppins;
     font-size: 1em;
     letter-spacing: 0.3px;
-    box-shadow: 5px 5px 5px #a39e9e;
+    
 }
 
 textarea:focus {
@@ -493,7 +493,7 @@ input[type="submit"]:hover {
     flex-wrap: wrap;
     margin-top: 100px;
     width: 100%;
-    height: 380px;
+    height: 360px;
     background-color:#E9ECEF;
     text-align: center;
     color: #113353;
