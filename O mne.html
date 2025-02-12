@@ -143,13 +143,26 @@
                 <h2>Zanechte mi vzkaz, ozvu se obratem</h2>
             </div>
 
-                <form action="mailer.php" method="post" class="contact-form row">
-                <input type="text" name="name" placeholder="Jméno a příjmení"><br>
-                <input type="text" name="email" placeholder="E-mail*"><br>
-                <input type="text" name="phone" placeholder="Telefon*"><br>
-                <textarea name="message" id="" cols="30" rows="6" placeholder="Napiště mi o vašem projektu něco více a jistě pro vás vymyslím to nejlepší řešení..."></textarea><br>
-                <input type="submit" class="sendBtn" value="ODESLAT">
-                                                      
+            <form action="mailer.php" method="post" class="contact-form row">
+                <div class="form-group">
+                    <label for="name">Jméno a příjmení*</label>
+                    <input type="text" id="name" name="name" placeholder="Petr Novák" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail*</label>
+                    <input type="email" id="email" name="email" placeholder="petr.novak@seznam.cz" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefon*</label>
+                    <input type="tel" id="phone" name="phone" placeholder="777 777 777" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Vaše zpráva</label>
+                    <textarea id="message" name="message" cols="30" rows="6" placeholder="Napište mi o vašem projektu něco více..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="sendBtn">ODESLAT</button>
+                </div>
             </form>
         </section>
 

@@ -111,6 +111,7 @@ header {
 
 #logo img:hover {
     transform: rotate(45deg);
+    transition: all 0.5s ease-in-out;
 }
 
 nav ul {
@@ -199,7 +200,7 @@ nav ul li a:active {
 
 .btn-full:hover,
 .btn-full:active {
-    transition: background 0.5s;
+    transition: background-color 0.3s ease, color 0.3s ease;
     background: rgb(45, 182, 168);
     border: 1px solid rgb(45, 182, 168);
     color: #fff;
@@ -215,7 +216,7 @@ nav ul li a:active {
 
 .btn-emty:hover,
 .btn-emty:active {
-    transition: background 0.5s;
+    transition: background-color 0.3s ease, color 0.3s ease;
     background: #40E0D0;
     border: 1px solid #40E0D0;
     color:#113353;
@@ -238,7 +239,7 @@ nav ul li a:active {
 
 .jq--scroll-contact-form:hover,
 .jq--scroll-contact-form:active {
-    transition: background 0.5s;
+    transition: background-color 0.3s ease, color 0.3s ease;
     background: rgb(45, 182, 168);
     border: 1px solid rgb(45, 182, 168);
     color: #fff;
@@ -412,7 +413,7 @@ nav ul li a:active {
 } */
 
 /*****Contact form*****/
-
+/* 
 .contact-first-step {
 text-align: center;
 font-family: 'Poppins';
@@ -497,6 +498,78 @@ input[type="submit"]:hover {
 background-color: rgb(45, 182, 168);
 transition: background-color 0.5s;
 color: #fff
+} */
+
+.contact-first-step {
+    text-align: center;
+    font-family: 'Poppins';
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    word-spacing: 0.5px;
+}
+
+.contact-form {
+    background-color: #E9ECEF;
+    max-width: 500px;
+    margin: 40px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group { /* Nový kontejner pro label a input */
+    margin-bottom: 15px; 
+}
+
+.contact-form label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold; 
+    font-family: 'Poppins';
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px;
+    font-family: 'Poppins'; 
+    font-size: 1em;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease; 
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #40E0D0; 
+    box-shadow: 0 0 5px rgba(64, 224, 208, 0.3); 
+}
+
+.contact-form textarea {
+    height: 120px; 
+    resize: vertical; 
+}
+
+.sendBtn {
+    display: block;
+    background-color: #40E0D0;
+    font-size: 1.2rem;
+    width: 50%;
+    color: #113353;
+    padding: 10px 20px; 
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.sendBtn:hover {
+    background-color: rgb(45, 182, 168);
+    color: #fff;
 }
 
 
@@ -596,7 +669,6 @@ iframe{
 /*****Footer-end of page*****/
 
 .footer-page {
-    /* background-image: linear-gradient(to right top, #17355e, #153f69, #114a73, #0b547d, #055f87, #02668d, #006e93, #007598, #007b9c, #0080a0, #0086a4, #008ca7); */
     background-color: #113353;
     height: 100px;
     display: flex;
@@ -639,6 +711,8 @@ iframe{
     margin-top: 13px;
     
 }
+
+
 
 
 
